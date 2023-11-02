@@ -6,11 +6,23 @@ export default {
   ],
   theme: {
     extend: {
+      inset: { 
+        '1/5': 'calc((100 / 5)%)',
+      },
+      borderWidth: { 
+        '0.5': '0.5px'
+      },
+      margin : {
+        '2.5': '10px'
+      },
       fontFamily: { 
         'kumbh-sans': '"Kumbh Sans", sans-serif',
       },
       boxShadow : { 
-        'addToCart': "0px 0px 20px hsl(26, 100%, 55%)",
+        'addToCart': "0px 12px 10px hsl(25, 100%, 94%)",
+      },
+      opacity : { 
+        '75%' : '75%'
       },
       fontWeight : { 
         'fontNormal': '400',

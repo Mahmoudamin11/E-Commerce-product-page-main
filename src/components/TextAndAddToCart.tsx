@@ -15,6 +15,7 @@ const TextAndAddToCart = ({inCartProducts, updateNum}: props) => {
   };
   const minusInCart = () =>  {
     (inCart > 0) ? (setIncart(inCart - 1), updateNum(inCart - 1) ): null; 
+    
   };
   return (
     <div className="p-5">
